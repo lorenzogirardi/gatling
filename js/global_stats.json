@@ -1,58 +1,58 @@
 {
     "name": "Global Information",
     "numberOfRequests": {
-        "total": 47242,
-        "ok": 47242,
-        "ko": 0
+        "total": 47052,
+        "ok": 45940,
+        "ko": 1112
     },
     "minResponseTime": {
-        "total": 5,
-        "ok": 5,
-        "ko": 0
+        "total": 1,
+        "ok": 1,
+        "ko": 4
     },
     "maxResponseTime": {
-        "total": 415,
-        "ok": 415,
-        "ko": 0
+        "total": 974,
+        "ok": 974,
+        "ko": 69
     },
     "meanResponseTime": {
-        "total": 23,
-        "ok": 23,
-        "ko": 0
+        "total": 6,
+        "ok": 6,
+        "ko": 10
     },
     "standardDeviation": {
         "total": 31,
-        "ok": 31,
-        "ko": 0
+        "ok": 32,
+        "ko": 8
     },
     "percentiles1": {
-        "total": 12,
-        "ok": 12,
-        "ko": 0
+        "total": 4,
+        "ok": 3,
+        "ko": 8
     },
     "percentiles2": {
-        "total": 24,
-        "ok": 24,
-        "ko": 0
+        "total": 5,
+        "ok": 4,
+        "ko": 11
     },
     "percentiles3": {
-        "total": 78,
-        "ok": 78,
-        "ko": 0
+        "total": 9,
+        "ok": 8,
+        "ko": 22
     },
     "percentiles4": {
-        "total": 162,
-        "ok": 162,
-        "ko": 0
+        "total": 31,
+        "ok": 31,
+        "ko": 46
     },
     "group1": {
     "name": "t < 800 ms",
-    "count": 47242,
-    "percentage": 100
+    "count": 45914,
+    "percentage": 98
 },
     "group2": {
     "name": "800 ms < t < 1200 ms",
-    "count": 0,
+    "count": 26,
     "percentage": 0
 },
     "group3": {
@@ -62,12 +62,12 @@
 },
     "group4": {
     "name": "failed",
-    "count": 0,
-    "percentage": 0
+    "count": 1112,
+    "percentage": 2
 },
     "meanNumberOfRequestsPerSecond": {
-        "total": 124.64907651715039,
-        "ok": 124.64907651715039,
-        "ko": 0
+        "total": 124.14775725593668,
+        "ok": 121.2137203166227,
+        "ko": 2.9340369393139842
     }
 }
